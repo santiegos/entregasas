@@ -1,0 +1,34 @@
+@mixin margenypad ($margen , $paden) {
+    padding: $paden;
+    margin: $margen;
+
+}
+
+
+p {
+    @include margenypad(20px, 10px);
+    color: white;
+
+}
+
+h1 {
+    @include margenypad(10px, 10px);
+    color: $blanco;
+    text-align: center;
+
+}
+
+h2 {
+    @extend h1;
+
+}
+
+h3 {
+    @include margenypad(50px, 10px);
+    height: 3px;
+    background: rgb(30, 0, 36);
+    background: rgb(0, 31, 36);
+    background: linear-gradient(90deg, rgba(0, 31, 36, 0.47524947478991597) 3%, rgba(54, 0, 62, 0.09989933473389356) 100%, rgba(0, 212, 255, 1) 100%);
+    color: $blanco;
+    text-align: center;
+}

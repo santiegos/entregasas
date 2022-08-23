@@ -1,0 +1,46 @@
+/* import */ /* variables */
+p {
+  padding: 10px;
+  margin: 20px;
+  color: white;
+}
+
+h1, h2 {
+  padding: 10px;
+  margin: 10px;
+  color: rgb(233, 225, 229);
+  text-align: center;
+}
+
+h3 {
+  padding: 10px;
+  margin: 50px;
+  height: 3px;
+  background: rgb(30, 0, 36);
+  background: rgb(0, 31, 36);
+  background: linear-gradient(90deg, rgba(0, 31, 36, 0.4752494748) 3%, rgba(54, 0, 62, 0.0998993347) 100%, rgb(0, 212, 255) 100%);
+  color: rgb(233, 225, 229);
+  text-align: center;
+}
+
+/* variable*/
+body {
+  background-image: url(./img/WhatsApp\ Image\ 2022-08-15\ at\ 5.08.17\ PM.jpeg);
+}
+
+/* animacion */
+.animacion {
+  animation-name: texto;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+@keyframes texto {
+  from {
+    transform: translateX(1000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
